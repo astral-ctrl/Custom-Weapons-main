@@ -31,7 +31,7 @@
 					<FireType>INSTANT_HIT</FireType>
 					<WheelSlot>WHEEL_PISTOL</WheelSlot>
 					<Group>GROUP_PISTOL</Group>
-					<AmmoInfo ref="AMMO_GAS"/>
+					<AmmoInfo ref="AMMO_PISTOL"/>
 					<AimingInfo ref="PISTOL_2H_BASE_STRAFE"/>
 					<ClipSize value="18"/>
 					<AccuracySpread value="3.000000"/>
@@ -260,11 +260,11 @@
 					</AttachPoints>
 					<GunFeedBone/>
 					<TargetSequenceGroup/>
-					<WeaponFlags>CarriedInHand Automatic Gun CanLockonOnFoot CanLockonInVehicle CanFreeAim AnimReload AnimCrouchFire UsableOnFoot UsableClimbing UsableInCover AllowEarlyExitFromFireAnimAfterBulletFired AllowCloseQuarterKills HasLowCoverReloads HasLowCoverSwaps QuitTransitionToIdleIntroOnWeaponChange DisableLeftHandIkWhenOnFoot TorsoIKForWeaponBlock UseFPSAimIK UseFPSSecondaryMotion</WeaponFlags>
+					<WeaponFlags>CarriedInHand Gun CanLockonOnFoot CanLockonInVehicle CanFreeAim AnimReload AnimCrouchFire UsableOnFoot UsableClimbing UsableInCover AllowEarlyExitFromFireAnimAfterBulletFired AllowCloseQuarterKills HasLowCoverReloads HasLowCoverSwaps QuitTransitionToIdleIntroOnWeaponChange DisableLeftHandIkWhenOnFoot TorsoIKForWeaponBlock UseFPSAimIK UseFPSSecondaryMotion</WeaponFlags>
 					<TintSpecValues ref="TINT_DEFAULT"/>
 					<FiringPatternAliases ref="FIRING_PATTERN_PISTOL"/>
 					<ReloadUpperBodyFixupExpressionData ref="default"/>
-					<AmmoDiminishingRate value="3"/>
+					<AmmoDiminishingRate value="1"/>
 					<AimingBreathingAdditiveWeight value="1.000000"/>
 					<FiringBreathingAdditiveWeight value="1.000000"/>
 					<StealthAimingBreathingAdditiveWeight value="1.000000"/>

@@ -264,7 +264,7 @@
 					<TintSpecValues ref="TINT_DEFAULT"/>
 					<FiringPatternAliases ref="FIRING_PATTERN_RIFLE"/>
 					<ReloadUpperBodyFixupExpressionData ref="default"/>
-					<AmmoDiminishingRate value="3"/>
+					<AmmoDiminishingRate value="1"/>
 					<AimingBreathingAdditiveWeight value="1.000000"/>
 					<FiringBreathingAdditiveWeight value="1.000000"/>
 					<StealthAimingBreathingAdditiveWeight value="1.000000"/>
