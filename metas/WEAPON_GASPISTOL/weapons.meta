@@ -260,9 +260,9 @@
 					</AttachPoints>
 					<GunFeedBone/>
 					<TargetSequenceGroup/>
-					<WeaponFlags>CarriedInHand Gun CanLockonOnFoot CanLockonInVehicle CanFreeAim AnimReload AnimCrouchFire UsableOnFoot UsableClimbing UsableInCover AllowEarlyExitFromFireAnimAfterBulletFired AllowCloseQuarterKills HasLowCoverReloads HasLowCoverSwaps QuitTransitionToIdleIntroOnWeaponChange DisableLeftHandIkWhenOnFoot TorsoIKForWeaponBlock UseFPSAimIK UseFPSSecondaryMotion</WeaponFlags>
+					<WeaponFlags>CarriedInHand Automatic Gun CanLockonOnFoot CanLockonInVehicle CanFreeAim AnimReload AnimCrouchFire UsableOnFoot UsableClimbing UsableInCover AllowEarlyExitFromFireAnimAfterBulletFired AllowCloseQuarterKills HasLowCoverReloads HasLowCoverSwaps QuitTransitionToIdleIntroOnWeaponChange DisableLeftHandIkWhenOnFoot TorsoIKForWeaponBlock UseFPSAimIK UseFPSSecondaryMotion</WeaponFlags>
 					<TintSpecValues ref="TINT_DEFAULT"/>
-					<FiringPatternAliases ref="FIRING_PATTERN_PISTOL"/>
+					<FiringPatternAliases ref="FIRING_PATTERN_APPISTOL"/>
 					<ReloadUpperBodyFixupExpressionData ref="default"/>
 					<AmmoDiminishingRate value="1"/>
 					<AimingBreathingAdditiveWeight value="1.000000"/>
