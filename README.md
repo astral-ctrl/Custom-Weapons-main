@@ -1,6 +1,7 @@
 # Custom Weapons Pack - OX Inventory
 
 Paczka z niestandardowymi broniami zoptymalizowana pod serwery FiveM korzystające z **OX Inventory**.
+Stworzone dla serwera Newlife RP.
 
 ## Dostępne Bronie
 1. **Pistolet Gazowy** (`WEAPON_GASPISTOL`) - Słaba broń gazowa zadająca minimalne obrażenia.

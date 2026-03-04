@@ -32,7 +32,7 @@
 					<WheelSlot>WHEEL_RIFLE</WheelSlot>
 					<Group>GROUP_RIFLE</Group>
 					<AmmoInfo ref="AMMO_RIFLE"/>
-					<AimingInfo ref="PISTOL_2H_BASE_STRAFE"/>
+					<AimingInfo ref="RIFLE_BASE"/>
 					<ClipSize value="18"/>
 					<AccuracySpread value="3.000000"/>
 					<AccurateModeAccuracyModifier value="0.500000"/>
@@ -123,17 +123,17 @@
 					<FirstPersonBulletBendingZoomedRadius value="0.375000"/>
 					<Fx>
 						<EffectGroup>WEAPON_EFFECT_GROUP_RIFLE</EffectGroup>
-						<FlashFx>muz_pistol</FlashFx>
+						<FlashFx>muz_rifle</FlashFx>
 						<FlashFxAlt/>
-						<FlashFxFP>muz_pistol_fp</FlashFxFP>
+						<FlashFxFP>muz_rifle_fp</FlashFxFP>
 						<FlashFxAltFP/>
 						<MuzzleSmokeFx>muz_smoking_barrel</MuzzleSmokeFx>
 						<MuzzleSmokeFxFP>muz_smoking_barrel_fp</MuzzleSmokeFxFP>
 						<MuzzleSmokeFxMinLevel value="0.300000"/>
 						<MuzzleSmokeFxIncPerShot value="0.100000"/>
 						<MuzzleSmokeFxDecPerSec value="0.275000"/>
-						<ShellFx>eject_pistol</ShellFx>
-						<ShellFxFP>eject_pistol_fp</ShellFxFP>
+						<ShellFx>eject_rifle</ShellFx>
+						<ShellFxFP>eject_rifle_fp</ShellFxFP>
 						<TracerFx>bullet_tracer</TracerFx>
 						<PedDamageHash>BulletLarge</PedDamageHash>
 						<TracerFxChanceSP value="0.200000"/>
@@ -242,7 +242,7 @@
 					<PickupHash>PICKUP_WEAPON_APPISTOL</PickupHash>
 					<MPPickupHash>PICKUP_AMMO_BULLET_MP</MPPickupHash>
 					<HumanNameHash>WEAPON_AR15</HumanNameHash>
-					<MovementModeConditionalIdle>MMI_1Handed</MovementModeConditionalIdle>
+					<MovementModeConditionalIdle>MMI_Rifle</MovementModeConditionalIdle>
 					<StatName>CARBINERIFLE</StatName>
 					<KnockdownCount value="3"/>
 					<KillshotImpulseScale value="1.750000"/>
@@ -262,7 +262,7 @@
 					<TargetSequenceGroup/>
 					<WeaponFlags>CarriedInHand Automatic Gun CanLockonOnFoot CanLockonInVehicle CanFreeAim AnimReload AnimCrouchFire UsableOnFoot UsableClimbing UsableInCover AllowEarlyExitFromFireAnimAfterBulletFired AllowCloseQuarterKills HasLowCoverReloads HasLowCoverSwaps QuitTransitionToIdleIntroOnWeaponChange DisableLeftHandIkWhenOnFoot TorsoIKForWeaponBlock UseFPSAimIK UseFPSSecondaryMotion</WeaponFlags>
 					<TintSpecValues ref="TINT_DEFAULT"/>
-					<FiringPatternAliases ref="FIRING_PATTERN_PISTOL"/>
+					<FiringPatternAliases ref="FIRING_PATTERN_RIFLE"/>
 					<ReloadUpperBodyFixupExpressionData ref="default"/>
 					<AmmoDiminishingRate value="3"/>
 					<AimingBreathingAdditiveWeight value="1.000000"/>
@@ -284,6 +284,6 @@
 			</Infos>
 		</Item>
 	</Infos>
-	<Name>AR</Name>
+	<Name>AR15</Name>
 </CWeaponInfoBlob>
 

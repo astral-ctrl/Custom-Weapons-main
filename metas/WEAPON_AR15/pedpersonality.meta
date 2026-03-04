@@ -7,7 +7,7 @@
 			<UnholsterClips>
 				<Item>
 					<Weapons>
-						<Item>WEAPON_GLOCK18C</Item>
+							<Item>WEAPON_AR15</Item>
 					</Weapons>
 					<Clip>unarmed_holster_1h</Clip>
 				</Item>
@@ -18,7 +18,7 @@
 			<UnholsterClips>
 				<Item>
 					<Weapons>
-						<Item>WEAPON_GLOCK18C</Item>
+							<Item>WEAPON_AR15</Item>
 					</Weapons>
 					<Clip>2h_melee_holster_1h</Clip>
 				</Item>
@@ -29,7 +29,7 @@
 			<UnholsterClips>
 				<Item>
 					<Weapons>
-						<Item>WEAPON_GLOCK18C</Item>
+							<Item>WEAPON_AR15</Item>
 					</Weapons>
 					<Clip>1h_holster_1h</Clip>
 				</Item>
@@ -40,7 +40,7 @@
 			<UnholsterClips>
 				<Item>
 					<Weapons>
-						<Item>WEAPON_GLOCK18C</Item>
+							<Item>WEAPON_AR15</Item>
 					</Weapons>
 					<Clip>2h_holster_1h</Clip>
 				</Item>
@@ -51,7 +51,7 @@
 			<UnholsterClips>
 				<Item>
 					<Weapons>
-						<Item>WEAPON_GLOCK18C</Item>
+							<Item>WEAPON_AR15</Item>
 					</Weapons>
 					<Clip>mini_holster_1h</Clip>
 				</Item>
@@ -62,7 +62,7 @@
 			<UnholsterClips>
 				<Item>
 					<Weapons>
-						<Item>WEAPON_GLOCK18C</Item>
+							<Item>WEAPON_AR15</Item>
 					</Weapons>
 					<Clip>unarmed_holster_1h</Clip>
 				</Item>
@@ -73,7 +73,7 @@
 			<UnholsterClips>
 				<Item>
 					<Weapons>
-						<Item>WEAPON_GLOCK18C</Item>
+							<Item>WEAPON_AR15</Item>
 					</Weapons>
 					<Clip>unarmed_holster_1h</Clip>
 				</Item>
@@ -84,7 +84,7 @@
 			<UnholsterClips>
 				<Item>
 					<Weapons>
-						<Item>WEAPON_GLOCK18C</Item>
+							<Item>WEAPON_AR15</Item>
 					</Weapons>
 					<Clip>1h_holster_1h</Clip>
 				</Item>
@@ -95,7 +95,7 @@
 			<UnholsterClips>
 				<Item>
 					<Weapons>
-						<Item>WEAPON_GLOCK18C</Item>
+							<Item>WEAPON_AR15</Item>
 					</Weapons>
 					<Clip>2h_holster_1h</Clip>
 				</Item>
@@ -109,12 +109,12 @@
 				<Item>
 					<Item>
 						<Weapons>
-							<Item>WEAPON_GLOCK18C</Item>
+								<Item>WEAPON_AR15</Item>
 						</Weapons>
 						<ClipSets>
 							<Item>
 								<MovementClipSetId>MOVE_ACTION@P_M_ZERO@ARMED@CORE</MovementClipSetId>
-								<WeaponClipSetId>MOVE_ACTION@P_M_ZERO@ARMED@1H@UPPER</WeaponClipSetId>
+								<WeaponClipSetId>MOVE_ACTION@P_M_ZERO@ARMED@2H@UPPER</WeaponClipSetId>
 								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
 								<UpperBodyShadowExpressionEnabled value="true"/>
 								<UpperBodyFeatheredLeanEnabled value="true"/>
@@ -125,7 +125,7 @@
 									<Item>MOVE_ACTION@GENERIC@TRANS@1H</Item>
 								</IdleTransitions>
 								<UnholsterClipSetId>MOVE_ACTION@P_M_ZERO@HOLSTER</UnholsterClipSetId>
-								<UnholsterClipData>UNHOLSTER_1H</UnholsterClipData>
+								<UnholsterClipData>UNHOLSTER_2H</UnholsterClipData>
 							</Item>
 						</ClipSets>
 					</Item>
@@ -133,12 +133,12 @@
 				<Item>
 					<Item>
 						<Weapons>
-							<Item>WEAPON_GLOCK18C</Item>
+								<Item>WEAPON_AR15</Item>
 						</Weapons>
 						<ClipSets>
 							<Item>
 								<MovementClipSetId>MOVE_STEALTH@P_M_ZERO@UNARMED@CORE</MovementClipSetId>
-								<WeaponClipSetId>MOVE_STEALTH@P_M_ZERO@1H@UPPER</WeaponClipSetId>
+								<WeaponClipSetId>MOVE_STEALTH@P_M_ZERO@2H@UPPER</WeaponClipSetId>
 								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
 								<UpperBodyShadowExpressionEnabled value="true"/>
 								<UpperBodyFeatheredLeanEnabled value="true"/>
@@ -149,7 +149,7 @@
 									<Item>MOVE_STEALTH@GENERIC@TRANS@1H</Item>
 								</IdleTransitions>
 								<UnholsterClipSetId>MOVE_STEALTH@P_M_ZERO@HOLSTER</UnholsterClipSetId>
-								<UnholsterClipData>UNHOLSTER_1H_STEALTH</UnholsterClipData>
+								<UnholsterClipData>UNHOLSTER_2H_STEALTH</UnholsterClipData>
 							</Item>
 						</ClipSets>
 					</Item>
@@ -164,12 +164,12 @@
 				<Item>
 					<Item>
 						<Weapons>
-							<Item>WEAPON_GLOCK18C</Item>
+								<Item>WEAPON_AR15</Item>
 						</Weapons>
 						<ClipSets>
 							<Item>
 								<MovementClipSetId>MOVE_ACTION@P_M_ZERO@ARMED@CORE</MovementClipSetId>
-								<WeaponClipSetId>MOVE_ACTION@P_M_ZERO@ARMED@1H@UPPER</WeaponClipSetId>
+								<WeaponClipSetId>MOVE_ACTION@P_M_ZERO@ARMED@2H@UPPER</WeaponClipSetId>
 								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
 								<UpperBodyShadowExpressionEnabled value="true"/>
 								<UpperBodyFeatheredLeanEnabled value="true"/>
@@ -180,7 +180,7 @@
 									<Item>MOVE_ACTION@MP_FEMALE@ARMED@1H@TRANS</Item>
 								</IdleTransitions>
 								<UnholsterClipSetId>MOVE_ACTION@P_M_ZERO@HOLSTER</UnholsterClipSetId>
-								<UnholsterClipData>UNHOLSTER_1H</UnholsterClipData>
+								<UnholsterClipData>UNHOLSTER_2H</UnholsterClipData>
 							</Item>
 						</ClipSets>
 					</Item>
@@ -188,12 +188,12 @@
 				<Item>
 					<Item>
 						<Weapons>
-							<Item>WEAPON_GLOCK18C</Item>
+								<Item>WEAPON_AR15</Item>
 						</Weapons>
 						<ClipSets>
 							<Item>
 								<MovementClipSetId>MOVE_STEALTH@P_M_ZERO@UNARMED@CORE</MovementClipSetId>
-								<WeaponClipSetId>MOVE_STEALTH@P_M_ZERO@1H@UPPER</WeaponClipSetId>
+								<WeaponClipSetId>MOVE_STEALTH@P_M_ZERO@2H@UPPER</WeaponClipSetId>
 								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
 								<UpperBodyShadowExpressionEnabled value="true"/>
 								<UpperBodyFeatheredLeanEnabled value="true"/>
@@ -204,7 +204,7 @@
 									<Item>MOVE_STEALTH@MP_FEMALE@1H@TRANS</Item>
 								</IdleTransitions>
 								<UnholsterClipSetId>MOVE_STEALTH@P_M_ZERO@HOLSTER</UnholsterClipSetId>
-								<UnholsterClipData>UNHOLSTER_1H_STEALTH</UnholsterClipData>
+								<UnholsterClipData>UNHOLSTER_2H_STEALTH</UnholsterClipData>
 							</Item>
 						</ClipSets>
 					</Item>
@@ -219,12 +219,12 @@
 				<Item>
 					<Item>
 						<Weapons>
-							<Item>WEAPON_GLOCK18C</Item>
+								<Item>WEAPON_AR15</Item>
 						</Weapons>
 						<ClipSets>
 							<Item>
 								<MovementClipSetId>MOVE_ACTION@P_M_ZERO@ARMED@CORE</MovementClipSetId>
-								<WeaponClipSetId>MOVE_ACTION@P_M_ZERO@ARMED@1H@UPPER</WeaponClipSetId>
+								<WeaponClipSetId>MOVE_ACTION@P_M_ZERO@ARMED@2H@UPPER</WeaponClipSetId>
 								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
 								<UpperBodyShadowExpressionEnabled value="true"/>
 								<UpperBodyFeatheredLeanEnabled value="true"/>
@@ -235,7 +235,7 @@
 									<Item>MOVE_ACTION@P_M_ZERO@ARMED@1H@TRANS@A</Item>
 								</IdleTransitions>
 								<UnholsterClipSetId>MOVE_ACTION@P_M_ZERO@HOLSTER</UnholsterClipSetId>
-								<UnholsterClipData>UNHOLSTER_1H</UnholsterClipData>
+								<UnholsterClipData>UNHOLSTER_2H</UnholsterClipData>
 							</Item>
 						</ClipSets>
 					</Item>
@@ -243,12 +243,12 @@
 				<Item>
 					<Item>
 						<Weapons>
-							<Item>WEAPON_GLOCK18C</Item>
+								<Item>WEAPON_AR15</Item>
 						</Weapons>
 						<ClipSets>
 							<Item>
 								<MovementClipSetId>MOVE_STEALTH@P_M_ZERO@UNARMED@CORE</MovementClipSetId>
-								<WeaponClipSetId>MOVE_STEALTH@P_M_ZERO@1H@UPPER</WeaponClipSetId>
+								<WeaponClipSetId>MOVE_STEALTH@P_M_ZERO@2H@UPPER</WeaponClipSetId>
 								<WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
 								<UpperBodyShadowExpressionEnabled value="true"/>
 								<UpperBodyFeatheredLeanEnabled value="true"/>
@@ -259,7 +259,7 @@
 									<Item>MOVE_STEALTH@P_M_ZERO@1H@TRANS@A</Item>
 								</IdleTransitions>
 								<UnholsterClipSetId>MOVE_STEALTH@P_M_ZERO@HOLSTER</UnholsterClipSetId>
-								<UnholsterClipData>UNHOLSTER_1H_STEALTH</UnholsterClipData>
+								<UnholsterClipData>UNHOLSTER_2H_STEALTH</UnholsterClipData>
 							</Item>
 						</ClipSets>
 					</Item>
@@ -274,7 +274,7 @@
 				<Item>
 					<Item>
 						<Weapons>
-							<Item>WEAPON_GLOCK18C</Item>
+								<Item>WEAPON_AR15</Item>
 						</Weapons>
 						<ClipSets>
 							<Item>
@@ -290,7 +290,7 @@
 									<Item>MOVE_ACTION@P_M_ONE@ARMED@1H@TRANS@A</Item>
 								</IdleTransitions>
 								<UnholsterClipSetId>MOVE_ACTION@P_M_ONE@HOLSTER</UnholsterClipSetId>
-								<UnholsterClipData>UNHOLSTER_1H</UnholsterClipData>
+								<UnholsterClipData>UNHOLSTER_2H</UnholsterClipData>
 							</Item>
 						</ClipSets>
 					</Item>
@@ -298,7 +298,7 @@
 				<Item>
 					<Item>
 						<Weapons>
-							<Item>WEAPON_GLOCK18C</Item>
+								<Item>WEAPON_AR15</Item>
 						</Weapons>
 						<ClipSets>
 							<Item>
@@ -311,10 +311,10 @@
 								<UseLeftHandIk value="false"/>
 								<IdleTransitionBlendOutTime value="0.50000000"/>
 								<IdleTransitions>
-									<Item>MOVE_STEALTH@P_M_ONE@1H@TRANS@A</Item>
+									<Item>MOVE_STEALTH@P_M_ONE@2H@TRANS@A</Item>
 								</IdleTransitions>
 								<UnholsterClipSetId>MOVE_STEALTH@P_M_ONE@HOLSTER</UnholsterClipSetId>
-								<UnholsterClipData>UNHOLSTER_1H_STEALTH</UnholsterClipData>
+								<UnholsterClipData>UNHOLSTER_2H_STEALTH</UnholsterClipData>
 							</Item>
 						</ClipSets>
 					</Item>
@@ -329,7 +329,7 @@
 				<Item>
 					<Item>
 						<Weapons>
-							<Item>WEAPON_GLOCK18C</Item>
+								<Item>WEAPON_AR15</Item>
 						</Weapons>
 						<ClipSets>
 							<Item>
@@ -345,7 +345,7 @@
 									<Item>MOVE_ACTION@P_M_TWO@ARMED@1H@TRANS@A</Item>
 								</IdleTransitions>
 								<UnholsterClipSetId>MOVE_ACTION@P_M_TWO@HOLSTER</UnholsterClipSetId>
-								<UnholsterClipData>UNHOLSTER_1H</UnholsterClipData>
+								<UnholsterClipData>UNHOLSTER_2H</UnholsterClipData>
 							</Item>
 						</ClipSets>
 					</Item>
@@ -353,7 +353,7 @@
 				<Item>
 					<Item>
 						<Weapons>
-							<Item>WEAPON_GLOCK18C</Item>
+								<Item>WEAPON_AR15</Item>
 						</Weapons>
 						<ClipSets>
 							<Item>
@@ -366,10 +366,10 @@
 								<UseLeftHandIk value="false"/>
 								<IdleTransitionBlendOutTime value="0.50000000"/>
 								<IdleTransitions>
-									<Item>MOVE_STEALTH@P_M_TWO@1H@TRANS@A</Item>
+									<Item>MOVE_STEALTH@P_M_TWO@2H@TRANS@A</Item>
 								</IdleTransitions>
 								<UnholsterClipSetId>MOVE_STEALTH@P_M_TWO@HOLSTER</UnholsterClipSetId>
-								<UnholsterClipData>UNHOLSTER_1H_STEALTH</UnholsterClipData>
+								<UnholsterClipData>UNHOLSTER_2H_STEALTH</UnholsterClipData>
 							</Item>
 						</ClipSets>
 					</Item>
