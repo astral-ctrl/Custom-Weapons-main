@@ -33,7 +33,7 @@
 					<Group>GROUP_PISTOL</Group>
 					<AmmoInfo ref="AMMO_PISTOL"/>
 					<AimingInfo ref="PISTOL_2H_BASE_STRAFE"/>
-					<ClipSize value="18"/>
+					<ClipSize value="12"/>
 					<AccuracySpread value="3.000000"/>
 					<AccurateModeAccuracyModifier value="0.500000"/>
 					<RunAndGunAccuracyModifier value="2.000000"/>
@@ -109,7 +109,7 @@
 					<VehicleReloadTime value="1.000000"/>
 					<AnimReloadRate value="1.000000"/>
 					<BulletsPerAnimLoop value="1"/>
-					<TimeBetweenShots value="0.100000"/>
+					<TimeBetweenShots value="0.400000"/>
 					<TimeLeftBetweenShotsWhereShouldFireIsCached value="-1.000000"/>
 					<SpinUpTime value="0.000000"/>
 					<SpinTime value="0.000000"/>
@@ -246,7 +246,7 @@
 					<StatName>APPISTOL</StatName>
 					<KnockdownCount value="3"/>
 					<KillshotImpulseScale value="1.750000"/>
-					<NmShotTuningSet>BurstFire</NmShotTuningSet>
+					<NmShotTuningSet>SingleShot</NmShotTuningSet>
 					<AttachPoints>
 						<Item>
 							<AttachBone>WAPClip</AttachBone>
@@ -260,9 +260,9 @@
 					</AttachPoints>
 					<GunFeedBone/>
 					<TargetSequenceGroup/>
-					<WeaponFlags>CarriedInHand Gun CanLockonOnFoot CanLockonInVehicle CanFreeAim AnimReload AnimCrouchFire UsableOnFoot UsableClimbing UsableInCover AllowEarlyExitFromFireAnimAfterBulletFired AllowCloseQuarterKills HasLowCoverReloads HasLowCoverSwaps QuitTransitionToIdleIntroOnWeaponChange DisableLeftHandIkWhenOnFoot TorsoIKForWeaponBlock UseFPSAimIK UseFPSSecondaryMotion</WeaponFlags>
+					<WeaponFlags>CarriedInHand Gun SemiAutoFire CanLockonOnFoot CanLockonInVehicle CanFreeAim AnimReload AnimCrouchFire UsableOnFoot UsableClimbing UsableInCover AllowEarlyExitFromFireAnimAfterBulletFired AllowCloseQuarterKills HasLowCoverReloads HasLowCoverSwaps QuitTransitionToIdleIntroOnWeaponChange DisableLeftHandIkWhenOnFoot TorsoIKForWeaponBlock UseFPSAimIK UseFPSSecondaryMotion</WeaponFlags>
 					<TintSpecValues ref="TINT_DEFAULT"/>
-					<FiringPatternAliases ref="FIRING_PATTERN_PISTOL"/>
+					<FiringPatternAliases ref="FIRING_PATTERN_SINGLE_SHOT"/>
 					<ReloadUpperBodyFixupExpressionData ref="default"/>
 					<AmmoDiminishingRate value="1"/>
 					<AimingBreathingAdditiveWeight value="1.000000"/>

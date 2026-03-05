@@ -12,3 +12,4 @@ data_file 'PED_PERSONALITY_FILE' 'metas/**/pedpersonality.meta'
 data_file 'WEAPONINFO_FILE' 'metas/**/weapons.meta'
 
 client_script 'cl_weaponNames.lua'
+client_script 'cl_singleshot.lua'
